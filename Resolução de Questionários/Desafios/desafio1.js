@@ -9,4 +9,4 @@ const alunos = [
 
 const todosSaoBolsistas = alunos.map(aluno => aluno.bolsista).reduce((resultado, bolsista) => resultado && bolsista)
 
-console.log(todosSaoBolsistas)
+console.log(todosSaoBolsistas) 
